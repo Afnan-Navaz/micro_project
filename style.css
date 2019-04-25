@@ -1,12 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(college.jpeg);
-    background-size:cover;
-    background-origin: inherit;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 #zero{
     z-index: 10;
