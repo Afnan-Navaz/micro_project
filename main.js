@@ -86,7 +86,6 @@ sub.addEventListener('click', function(e){
             });
         });
         arr = JSON.stringify(arr);
-        alert(arr);
         window.location.reload();
     }
 });
