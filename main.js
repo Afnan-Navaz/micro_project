@@ -71,8 +71,8 @@ box.addEventListener('click',function(e){
 });
 
 sub.addEventListener('click', function(e){
-    let conf = confirm("Are you sure?");
-    if(conf == true){
+
+
         let d = new Date();
         let arr = new Array();
         arr.push(d.getDate()+"/"+d.getMonth()+"/"+d.getFullYear());
@@ -87,5 +87,5 @@ sub.addEventListener('click', function(e){
         });
         arr = JSON.stringify(arr);
         window.location.reload();
-    }
+
 });
